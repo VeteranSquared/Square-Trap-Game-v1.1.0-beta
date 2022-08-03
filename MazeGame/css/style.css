@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.welcome {
+    margin-top: 300px;
+    font-size: 2.8em;
+    margin-bottom: 35px;
+}
+#start {
+    padding: 5px 60px;
+    font-size: 1.6em;
+    border: 2px solid #000;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    background: transparent;
+}
+#start:hover {
+    border: solid 2px #00F000;
+}
