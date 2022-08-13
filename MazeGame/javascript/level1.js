@@ -193,11 +193,9 @@ function makeObstacleWallKill() {
 }
 function blackenScreen() {
     document.body.style.background = "#000"
-    setTimeout(() => {
-        for(let i = 0; i < walls.length; i++){
-            walls[i].style.background = "#000"
-        }
-    }, 2000);
+    for(let i = 0; i < walls.length; i++){
+        walls[i].style.background = "#000"
+    }
     obstacle1.style.display = "none"
     obstacle2.style.display = "none"
     obstacle3.style.display = "none"
